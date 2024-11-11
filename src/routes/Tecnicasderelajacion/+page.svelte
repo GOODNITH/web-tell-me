@@ -1,5 +1,4 @@
 <script>
-        import '$lib/css/bootstrap.min.css';
         import '$lib/css/style.css';
 </script>
 
@@ -28,7 +27,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
            > You can tell me</h1>
 
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button aria-label="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="fa fa-bars"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -37,7 +36,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
             <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
 
             <div class="nav-item dropdown">
-                <a href="1" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Paginas</a>
+                <a href="1" aria-label="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Paginas</a>
                 <div class="dropdown-menu m-0">
                     <a href="feature.html" class="dropdown-item active">Apoyo Psicológico</a>
                     <a href="EstrategiasDMDE.html" class="dropdown-item">Estrategias de Manejo del Estrés</a>
@@ -71,7 +70,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
     <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Técnicas de relajación</h3>
         <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
             <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item"><a href="1">Paginas</a></li>
+            <li class="breadcrumb-item"><a href="1" aria-label="button">Paginas</a></li>
             <li class="breadcrumb-item active text-primary">Técnicas de relajación</li>
         </ol>
 </div>
@@ -98,7 +97,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
                     <div class="blog-info">
                         <div class="d-flex">
                             <span class="me-3"><i class=""></i></span>
-                            <a href="1" class="text-white"> <i class=""></i></a>
+                            <a href="1" aria-label="button" class="text-white"> <i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +121,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
                     <div class="blog-info">
                         <div class="d-flex">
                             <span class="me-3"><i class=""></i></span>
-                            <a href="1" class="text-white"> <i class=""></i></a>
+                            <a href="1" aria-label="button" class="text-white"> <i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +144,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
                     <div class="blog-info">
                         <div class="d-flex">
                             <span class="me-3"><i class=""></i></span>
-                            <a href="1" class="text-white"><i class=""></i></a>
+                            <a href="1" aria-label="button" class="text-white"><i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +167,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
                     <div class="blog-info">
                         <div class="d-flex">
                             <span class="me-3"><i class=""></i></span>
-                            <a href="1" class="text-white"><i class=""></i></a>
+                            <a href="1" aria-label="button" class="text-white"><i class=""></i></a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +203,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
             <div class="footer-item d-flex flex-column">
                 <h4 class="text-dark mb-4">Proyecto</h4>
                 <a href="servicios.html"> Nuestros Servicios</a>
-                <a href="1"> Blog y Noticias</a>
+                <a href="1" aria-label="button"> Blog y Noticias</a>
                 <a href="sobrenosotros.html"> Sobre Nosotros</a>
 
             </div>
@@ -213,34 +212,34 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
             <div class="footer-item d-flex flex-column">
                 <h4 class="mb-4 text-dark">Enlaces Rápidos</h4>
                 <a href="contact.html"> Contáctanos</a>
-                <a href="1"> Política de Privacidad</a>
-                <a href="1"> Términos y Condiciones</a>
+                <a href="1" aria-label="button"> Política de Privacidad</a>
+                <a href="1" aria-label="button"> Términos y Condiciones</a>
             </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
             <div class="footer-item d-flex flex-column">
                 <h4 class="mb-4 text-dark">Servicios</h4>
-                <a href="1"> Apoyo Psicológico</a>
+                <a href="1" aria-label="button"> Apoyo Psicológico</a>
                 <a href="EstrategiasDMDE.html"> Estrategias de Manejo del Estrés</a>
                 <a href="Tecnicasderelajacion.html"> Técnicas de Relajación</a>
-                <a href="1"> Apoyo Académico</a>
+                <a href="1" aria-label="button"> Apoyo Académico</a>
             </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
             <div class="footer-item d-flex flex-column">
                 <h4 class="mb-4 text-dark">Información de Contacto</h4>
-                <a href="1"><i class="fas fa-envelope me-2"></i> cardonavalenciasara@gmail.com</a>
-                <a href="1"><i class="fas fa-phone me-2"></i> 3239690101</a>
-                <a href="1" class="mb-3"><i class="fas fa-print me-2"></i> 3229633103</a>
+                <a href="1" aria-label="button"><i class="fas fa-envelope me-2"></i> cardonavalenciasara@gmail.com</a>
+                <a href="1" aria-label="button"><i class="fas fa-phone me-2"></i> 3239690101</a>
+                <a href="1" aria-label="button" class="mb-3"><i class="fas fa-print me-2"></i> 3229633103</a>
                 <div class="d-flex justify-content-center align-items-center">
                     <i class="fas fa-share fa-2x text-secondary me-2"></i>
-                    <a class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
+                    <a aria-label="button" class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
+                    <a aria-label="button" class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
                             class="fab fa-twitter"></i></a>
-                    <a class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
+                    <a aria-label="button" class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
                             class="fab fa-instagram"></i></a>
-                    <a class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
+                    <a aria-label="button" class="btn-square btn btn-primary rounded-circle mx-1" href="1"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
@@ -256,7 +255,7 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
 <div class="container">
     <div class="row g-4 align-items-center">
         <div class="col-md-6 text-center text-md-start mb-md-0">
-            <span class="text-white"><a href="1"><i class="fas fa-copyright text-light me-2"></i>You Can Tell
+            <span class="text-white"><a href="1" aria-label="button"><i class="fas fa-copyright text-light me-2"></i>You Can Tell
                     Me</a>, All rights reserved.</span>
         </div>
         <div class="col-md-6 text-center text-md-end text-white">
@@ -271,4 +270,4 @@ class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-5
 
 
 <!-- Back to Top -->
-<a href="1" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+<a href="1" aria-label="button" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
