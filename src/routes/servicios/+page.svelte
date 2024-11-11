@@ -1,5 +1,4 @@
 <script>
-    import '$lib/css/bootstrap.min.css';
     import '$lib/css/style.css';
    
     import { onMount } from 'svelte';
@@ -43,7 +42,7 @@
           You Can Tell Me
         </h1>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <button aria-label="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="fa fa-bars"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -51,7 +50,7 @@
           <a href="/" class="nav-item nav-link active">Inicio</a>
           <a href="/sobrenosotros" class="nav-item nav-link">Sobre Nosotros</a>
           <div class="nav-item dropdown">
-            <a href="1" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+            <a href="1" aria-label="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
             <div class="dropdown-menu m-0">
               <a href="/apoyopsicologico" class="dropdown-item">Apoyo Psicológico</a>
               <a href="/estrategias-dmde" class="dropdown-item">Estrategias de Manejo del Estrés</a>
@@ -70,7 +69,7 @@
       <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nuestros Servicios</h3>
       <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
         <li class="breadcrumb-item"><a href="/">Inicio</a></li>
-        <li class="breadcrumb-item"><a href="1">Páginas</a></li>
+        <li class="breadcrumb-item"><a href="1">aria-label="button"Páginas</a></li>
         <li class="breadcrumb-item active">Servicios</li>
       </ol>
     </div>
@@ -92,7 +91,7 @@
             <div class="d-inline-block rounded bg-light p-4 mb-4">
               <i class="fas fa-brain fa-5x text-secondary"></i>
             </div>
-            <a href="1" class="h4">Apoyo Psicológico <i class="fa fa-long-arrow-alt-right"></i></a>
+            <a href="1" aria-label="button" class="h4">Apoyo Psicológico <i class="fa fa-long-arrow-alt-right"></i></a>
             <p class="mt-4 mb-0">Orientación y asesoramiento personalizado para estudiantes.</p>
           </div>
         </div>
@@ -107,7 +106,7 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <h4 class="text-dark mb-4">Proyecto</h4>
           <a href="/servicios">Nuestros Servicios</a>
-          <a href="1">Blog y Noticias</a>
+          <a href="1">aria-label="button"Blog y Noticias</a>
           <a href="/sobrenosotros">Sobre Nosotros</a>
         </div>
       </div>
@@ -115,7 +114,7 @@
   </div>
   
   <!-- Botón volver arriba -->
-  <a href="1" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+  <a href="1" aria-label="button" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
   
   <style>
     :global(body) {
@@ -124,15 +123,6 @@
   
     .bg-light {
       background-color: #f8f9fa;
-    }
-  
-    .breadcrumb-animation li {
-      width: 10px;
-      height: 10px;
-      background-color: #007bff;
-      margin: 0 5px;
-      border-radius: 50%;
-      animation: pulse 1.5s infinite;
     }
   
     @keyframes pulse {
@@ -145,6 +135,6 @@
     }
   
     .back-to-top { display: none; position: fixed; bottom: 25px; right: 25px; }
-    .back-to-top.active { display: block; }
+    .back-to-top:active { display: block; }
   </style>
   

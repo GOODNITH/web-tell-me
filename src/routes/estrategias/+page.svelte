@@ -1,5 +1,4 @@
 <script>
-import '$lib/css/bootstrap.min.css';
 import '$lib/css/style.css';
 </script>
 
